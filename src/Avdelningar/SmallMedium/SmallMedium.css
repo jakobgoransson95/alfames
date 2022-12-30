@@ -1,0 +1,17 @@
+.rubrik {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  font-size: 700%;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 100px;
+  font-family: italy;
+  text-align: center;
+  text-shadow: 0 2px 1px #747474,
+    -22px 45px 1px #d5d5d5,
+    -23px 47px 1px #e2e2e2,
+    -24px 49px 1px #e6e6e6,
+    -25px 51px 1px #eaeaea,
+    -26px 53px 1px #efefef;
+}

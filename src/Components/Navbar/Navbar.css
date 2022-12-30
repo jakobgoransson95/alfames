@@ -1,0 +1,125 @@
+.main-nav {
+  display: grid;
+  list-style: none;
+  font-size: 0.7em;
+  margin: 0;
+  color: white;
+  font-weight: bolder;
+  font-size: 130%;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: italy;
+  grid-template-columns: 7% 12% 60% 10% 8%;
+
+}
+
+
+.main-nav li {
+  padding: 20px;
+  justify-content: top;
+}
+
+.main-nav p {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 20px;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.main-nav p:hover {
+  scale: 1.2;
+}
+
+.dropdown {
+  list-style: none;
+  grid-row: 1;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 0px;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-self: left;
+}
+
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content p:hover {
+  scale: 1.2;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  background: linear-gradient(89deg, #e3ecff 0%, #def9fc 100%);
+}
+
+.startsida {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  grid-row: 1;
+  justify-self: left;
+}
+
+.startsida:hover {
+  transform: scale(1.1);
+}
+
+#planeringNavbar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  grid-row: 1;
+  grid-column: 3;
+  justify-self: flex-start;
+  margin-right: 15%;
+}
+
+#planeringNavbar:hover {
+  transform: scale(1.1);
+}
+
+#loggaInNavbar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  grid-row: 1;
+  justify-self: flex-end;
+  grid-column: 5;
+}
+
+#loggaInNavbar:hover {
+  transform: scale(1.1);
+}
+
+#emailNavbar {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  grid-row: 1;
+  justify-self: flex-end;
+  grid-column: 4;
+
+}

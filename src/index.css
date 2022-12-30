@@ -1,0 +1,21 @@
+:root {
+  --mesProcent: '99.1';
+  --mesDeg: 90.0;
+  --p: 78%;
+  --b: 22px;
+  --c: orange;
+  --w: 150px;
+  --Z: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(89deg, #c6d4f2 0%, #dcede8 100%);
+  /* w3c */
+}
+
+button {
+  cursor: pointer;
+}

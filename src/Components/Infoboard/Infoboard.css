@@ -1,0 +1,176 @@
+.helaInfo {
+  background: linear-gradient(89deg, #FFFFE0 0%, #d2f3dd 100%);
+  font-size: 4vw;
+  padding: 8px;
+  border: 3px solid rgb(235, 235, 241);
+  box-shadow: 4px 4px 5px;
+  border-radius: 30px;
+  margin: 40px;
+  display: grid;
+  justify-content: center;
+  font-weight: bold;
+  min-height: 300px;
+
+}
+
+.mainflex {
+  display: grid;
+  text-align: left;
+  grid-template-columns: 35% 65%;
+  height: 50px;
+
+}
+
+.infoRubrik {
+  grid-row: 1;
+  width: 100%;
+  margin-top: 0px;
+}
+
+
+.backroundboxInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 0px;
+}
+
+.meddelanderuta {
+  background: linear-gradient(89deg, #e3ecff 0%, #def9fc 100%);
+  font-size: 40%;
+  width: 16em;
+  padding: 8px;
+  border: 3px solid rgb(143, 143, 144);
+  box-shadow: 4px 4px 5px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  display: grid;
+
+}
+
+.pos {
+  position: absolute;
+  margin-top: 50px;
+}
+
+.inputName {
+  grid-column: span 2;
+  width: 100%;
+  justify-self: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.inputNote {
+  grid-column: span 2;
+  justify-self: center;
+  width: 100%;
+  margin: 10px;
+  height: 3em;
+  border-radius: 10px;
+}
+
+.buttonInfoSend {
+  width: 30%;
+  justify-self: right;
+  margin-right: 10px;
+  background-color: transparent;
+  border: transparent;
+  font-size: medium;
+  font-family: italy;
+  font-weight: 600;
+}
+
+.buttonInfoSend:hover {
+  transform: scale(1.1);
+}
+
+.buttonInfoExit {
+  width: 30%;
+  justify-self: left;
+  margin-right: 10px;
+  background-color: transparent;
+  border: transparent;
+  font-size: medium;
+  font-family: italy;
+  font-weight: 600;
+}
+
+.buttonInfoExit:hover {
+  transform: scale(1.1);
+}
+
+.buttonInfoAdd {
+  justify-self: left;
+  grid-row: 1;
+  margin-right: 10px;
+  background-color: transparent;
+  border: transparent;
+  font-size: x-large;
+  font-family: italy;
+  font-weight: 600;
+}
+
+.buttonInfoAdd:hover {
+  transform: scale(1.1);
+}
+
+.paste {
+  background: linear-gradient(89deg, #e3ecff 0%, #def9fc 100%);
+  font-size: 40%;
+  width: 30vw;
+  padding: 8px;
+  border: 3px solid rgb(143, 143, 144);
+  shadow: 4px 4px 5px;
+  border-radius: 15px;
+  margin: 40px;
+  text-align: center;
+  display: grid;
+}
+
+#pasteNamn {
+  border-radius: 5px;
+  font-size: 80%;
+  font-family: italy;
+  width: 70%;
+  justify-self: center;
+  height: 48%;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+#pasteMessage {
+  background-color: white;
+  margin: 10px;
+  height: 4em;
+  border-radius: 10px;
+  font-size: 80%;
+  font-family: italy;
+
+}
+
+#pasteJoined {
+  height: 20%;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  font-size: 50%;
+  font-family: italy;
+  justify-self: baseline;
+  grid-row: 3;
+}
+
+.removeMess {
+  justify-self: left;
+  margin-top: 0px;
+  cursor: pointer;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.removeMess:hover {
+  transform: scale(1.2);
+}
