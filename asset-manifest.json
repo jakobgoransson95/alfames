@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Alfa-/static/css/main.499682da.css",
+    "main.js": "/Alfa-/static/js/main.314aa21b.js",
+    "static/js/787.5fc43920.chunk.js": "/Alfa-/static/js/787.5fc43920.chunk.js",
+    "static/media/arrow4mesvecka.pdf": "/Alfa-/static/media/arrow4mesvecka.ab7f3375e3ffa428f26c.pdf",
+    "static/media/arrow4mesdygn.pdf": "/Alfa-/static/media/arrow4mesdygn.285d3c4e98d31d6165f7.pdf",
+    "static/media/arrow4messenaste.pdf": "/Alfa-/static/media/arrow4messenaste.8ebc65d0cc673f9abc4f.pdf",
+    "index.html": "/Alfa-/index.html",
+    "main.499682da.css.map": "/Alfa-/static/css/main.499682da.css.map",
+    "main.314aa21b.js.map": "/Alfa-/static/js/main.314aa21b.js.map",
+    "787.5fc43920.chunk.js.map": "/Alfa-/static/js/787.5fc43920.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.499682da.css",
+    "static/js/main.314aa21b.js"
+  ]
+}
