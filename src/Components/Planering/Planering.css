@@ -1,61 +1,10 @@
-#rubrikPlanering {
+#mainflexPlanering {
   display: grid;
-  font-size: xx-large;
-  width: 280%;
-  justify-content: left;
-  margin-bottom: 20px;
-  grid-template-columns: 6.5% 20% 38% 18% 13%;
-
+  text-align: left;
+  grid-template-columns: 37% 63%;
+  height: 50px;
 }
 
-#rubrikPrio {
-  text-align: center;
-  background-color: transparent;
-  border-radius: 10px;
-  font-size: xx-large;
-  grid-column: 1;
-  grid-row: 1;
-  margin-left: 0px;
-}
-
-#rubrikAvdelning {
-  grid-column: 2;
-  background-color: transparent;
-  border-radius: 10px;
-  font-size: xx-large;
-  justify-self: center;
-  grid-column: 2;
-  grid-row: 1;
-}
-
-#rubrikBeskrivning {
-  text-align: center;
-  background-color: transparent;
-  border-radius: 10px;
-  font-size: xx-large;
-  grid-column: 3;
-  grid-row: 1;
-}
-
-#rubrikNär {
-  text-align: center;
-  background-color: transparent;
-  border-radius: 10px;
-  font-size: xx-large;
-  grid-column: 4;
-  grid-row: 1;
-}
-
-#rubrikKlart {
-  display: flex;
-  justify-self: center;
-  margin-right: 20px;
-  background-color: transparent;
-  border-radius: 10px;
-  font-size: xx-large;
-  grid-column: 5;
-  grid-row: 1;
-}
 
 #planeringsruta {
   display: flex;
@@ -115,8 +64,8 @@
 
 #planeringRemoveEdit {
   display: flex;
-  height: 2px;
   margin-top: 0.65%;
+  width: 5%;
 }
 
 .removePlanering {
@@ -150,7 +99,7 @@
 
 #serchPlanering {
   grid-row: 1;
-  width: 20%;
+  width: 10em;
   margin-left: 40%;
   height: 45%;
   border-radius: 10px;
@@ -210,4 +159,33 @@
   width: 80%;
   border-radius: 20px;
   font-size: x-large;
+}
+
+#rutaTaBortPlanering {
+  background: linear-gradient(89deg, #FFFFE0 0%, #d2f3dd 100%);
+  height: 5em;
+  width: 12em;
+  font-size: medium;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 10px;
+  position: absolute;
+  right: 20px;
+}
+
+#TaBortTextPlanering {
+  grid-column: span 2;
+  margin: 0px;
+}
+
+.TaBortJaPlanering {
+  grid-row: 2;
+  cursor: pointer;
+  border: 1px solid;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.TaBortJaPlanering:hover {
+  transform: scale(1.1);
 }

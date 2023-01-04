@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, } from 'react';
 import './Infoboard.css';
 import { BiMessageAdd } from "react-icons/bi";
 import moment from 'moment/moment';
@@ -12,17 +12,40 @@ class Infoboard extends Component {
       add: 0,
       namn: '',
       message: '',
+      timer: 0,
       messageAll: []
     }
   }
+
+
+
 
   componentDidMount() {
     fetch('http://localhost:4000/infoboard' + this.props.avdelning)
       .then(response => response.json())
       .then(x => {
-        this.setState({ messageAll: x })
+        this.setState({ messageAll: x });
+        this.myTimer();
       })
   }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.timer !== this.state.timer) {
+      this.componentDidMount()
+      this.setState({ timer: 0 })
+    }
+  }
+
+  myTimer = () => {
+    setInterval(() => {
+      this.setState((prevState) => ({
+        timer: prevState.timer + 1
+      }));
+    }, 30000);
+
+  }
+
+
 
 
   showBox = (x) => {
@@ -63,6 +86,7 @@ class Infoboard extends Component {
 
   render() {
     const { add, messageAll } = this.state;
+
 
     return (
       <div className='helaInfo'>

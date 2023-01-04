@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import './App.css';
 import Startsida from './Avdelningar/Startsida/Startsida';
-import Lågvolym from './Avdelningar/Lågvolym';
+import Lågvolym from './Avdelningar/Lågvolym/Lågvolym';
 import Högvolym from './Avdelningar/Högvolym/Högvolym';
 import SmallMedium from './Avdelningar/SmallMedium/SmallMedium';
 import AlfaNova from './Avdelningar/AlfaNova/AlfaNova';
@@ -11,6 +11,9 @@ import ParticlesBg from 'particles-bg'
 import Planering from './Components/Planering/Planering';
 import LoggaIn from './Components/LoggaIn/LoggaIn';
 import Registrera from './Components/Registrera/Registrera';
+import XL from './Avdelningar/XL/XL';
+import MakinloggningÖversikt from './Avdelningar/MakinloggningÖversikt/MakinloggningÖversikt';
+
 
 
 fetch('http://localhost:4000')
@@ -32,7 +35,7 @@ class App extends Component {
       id: '',
       name: '',
       email: '',
-      inloggad: 'falskt'
+      inloggad: 'falskt',
     }
   }
 
@@ -60,7 +63,7 @@ class App extends Component {
 
 
   render() {
-    const { page, } = this.state;
+    const { page } = this.state;
     return (
       <div className="App">
         <ParticlesBg type="cobweb" color="#ffffff" bg={true} />
@@ -74,6 +77,9 @@ class App extends Component {
         {page === 'smallMedium' && <SmallMedium />}
         {page === 'alfaNova' && <AlfaNova />}
         {page === 'underhåll' && <Underhåll />}
+        {page === 'xl' && <XL />}
+        {page === 'MakinloggningÖversikt' && <MakinloggningÖversikt
+          onPageChange={this.onPageChange} />}
         {page === 'planering' && <Planering namn="jakobgoransson"
           email={this.state.email} />}
         {page === 'loggaIn' && <LoggaIn

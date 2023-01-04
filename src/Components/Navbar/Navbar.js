@@ -34,6 +34,7 @@ class Navbar extends React.Component {
             </div>
           </li>
         </div>
+        <div className='startsida' onClick={() => onPageChange('MakinloggningÖversikt')}  >Maskinloggning</div>
         {inloggad === 'sant' &&
           <div
             onClick={() => onPageChange('planering')}

@@ -8,7 +8,7 @@
   font-size: 130%;
   text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-family: italy;
-  grid-template-columns: 7% 12% 60% 10% 8%;
+  grid-template-columns: 7% 12% 13% 11% 47% 9%;
 
 }
 
@@ -92,7 +92,7 @@
   display: flex;
   align-items: center;
   grid-row: 1;
-  grid-column: 3;
+  grid-column: 4;
   justify-self: flex-start;
   margin-right: 15%;
 }
@@ -107,7 +107,7 @@
   align-items: center;
   grid-row: 1;
   justify-self: flex-end;
-  grid-column: 5;
+  grid-column: 6;
 }
 
 #loggaInNavbar:hover {
@@ -120,6 +120,6 @@
   align-items: center;
   grid-row: 1;
   justify-self: flex-end;
-  grid-column: 4;
+  grid-column: 5;
 
 }

@@ -1,0 +1,39 @@
+#limitChart {
+  position: absolute;
+  border-radius: 10px;
+  left: 4em;
+  width: 5%;
+  height: 3%;
+  font-size: medium;
+}
+
+#rubrikChart {
+  position: absolute;
+  border-radius: 10px;
+  left: 11em;
+  top: 1.5em;
+  width: 30%;
+  height: 8%;
+  display: flex;
+  font-size: 80%;
+  font-family: italy;
+  margin-top: 4%;
+  text-align: center;
+}
+
+#chartBox {
+  margin-top: 2em;
+  background-color: #fdffff;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 1000px;
+  height: 500px;
+}
+
+#goBackLinechart {
+  right: 3.5%;
+  position: absolute;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+#datumPlanering {
+  font-size: xx-large;
+}
+
+#planeringsrutaUH {
+  display: grid;
+  margin-bottom: 20px;
+}
+
+#planeringsrutaUH>input {
+  width: 100%;
+  height: 2em;
+  border: 1px solid;
+  font-size: medium;
+  grid-row: 1;
+  margin-top: 13%;
+}
+
+#planeringRemoveEdit {
+  justify-self: center;
+  margin-top: 0px;
+  grid-row: 1;
+  width: 50%;
+  height: 10px;
+}
